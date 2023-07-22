@@ -174,7 +174,7 @@ body {
   max-width: 650px;
   transform: rotate(-45deg);
   opacity: 0;
-  animation: car 1s ease forwards;
+  animation: car 0.8s ease forwards;
   animation-delay: 2s;
 }
 
@@ -261,7 +261,7 @@ body {
 @keyframes car {
   0% {
     transform: translateX(300px, -300px) scale(0) rotate(-45deg);
-    opacity: 0;
+    opacity: 1s;
   }
   100% {
     transform: translateX(0, 0) scale(1) rotate(-45deg);
