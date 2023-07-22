@@ -26,11 +26,10 @@ body {
 
 .logo {
   font-size: 25px;
-  color: #000000;
+  color: #222;
   text-decoration: none;
   font-weight: 600;
-  opacity: 0;
-  animation: slideRigth 1s ease forwards;
+  animation: slideRight 1s ease forwards;
 }
 
 .navbar a {
@@ -60,6 +59,8 @@ body {
 
 .social-media a {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   background: transparent;
@@ -119,6 +120,7 @@ body {
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1.6s;
+  max-width: 550px;
 }
 
 .btn {
@@ -147,8 +149,9 @@ body {
 .home-img {
   position: relative;
   right: -7%;
-  width: 450px;
-  height: 450px;
+  top: 5%;
+  width: 400px;
+  height: 400px;
   transform: rotate(45deg);
 }
 
@@ -166,9 +169,9 @@ body {
 
 .home-img .rhombus img {
   position: absolute;
-  top: 110px;
-  left: -250px;
-  max-width: 750px;
+  top: 50px;
+  left: -200px;
+  max-width: 650px;
   transform: rotate(-45deg);
   opacity: 0;
   animation: car 1s ease forwards;
@@ -185,7 +188,7 @@ body {
   transform: rotate(45deg);
   z-index: -1;
   opacity: 0;
-  animation: rhomnus2 1s ease forwards;
+  animation: rhombus2 1s ease forwards;
 }
 
 /*KEYFRAMES ANIMATION */
